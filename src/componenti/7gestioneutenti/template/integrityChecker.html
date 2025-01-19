@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="robots" content="noindex">
+
+	##JQUERYINCLUDE##
+	<script src="##root##src/template/comode.js?v=##VER##"></script>
+
+	<title>##TITLE##</title>
+
+	<script src="../gestioneutenti/template/dettaglio.js?v=##VER##"></script>
+
+</head>
+<body class="##bodyclass##">
+<div class="panel2">
+	<div class="titlecontainer">
+		<h1 class='title'>##TITLE##</h1> <a href="javascript:checkConStato()" class="salva"> {Save}</a>
+	</div>
+</div>
+
+
+<div class="corpo">
+	##STARTFORM##
+    ##op##
+	<fieldset class='mainfieldset'>
+		<legend>{Verify your purchase}</legend>
+        <p>{Hi,<br>we need to verify your copy of AdAdmin software.<br>Please insert your purchase code received from CodeCanyon when you bought this software.}<br><br></p>
+        <p><b>{Each purchase code is valid for just one installation.}</b><br><br></p>
+		<div id='Datiprincipali'>
+		<table>
+			<tr>
+				<td class="small">{Purchase code}*</td>
+				<td class="small">##pc##</td>
+			</tr>
+		</table>
+        <p>
+            <br><br>
+           Don't have a purchase code? <a href="https://1.envato.market/adadmin" target="_blank"><u>You can buy AdAdmin on CodeCanyon.</u></a>
+        </p>
+		</div>
+	</fieldset>
+	##ENDFORM##
+</div>
+
+
+
+</body>
+</html>
